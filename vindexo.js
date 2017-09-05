@@ -1,4 +1,5 @@
 var hostname = "https://www.vindexo.net";
+/* deneme */
 
 if (!window.jQuery) {
     /*! jQuery v3.1.1 | (c) jQuery Foundation | jquery.org/license */
