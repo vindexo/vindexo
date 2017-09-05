@@ -1,5 +1,5 @@
 var hostname = "https://www.vindexo.net";
-var hostname = "http://vindex";
+
 if (!window.jQuery) {
     /*! jQuery v3.1.1 | (c) jQuery Foundation | jquery.org/license */
     !function (a, b) {
