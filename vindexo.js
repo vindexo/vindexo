@@ -1,5 +1,11 @@
+/**
+
+Name: Vindexo Embed Javascript
+Version: 1.0.2
+Author: Serkan Celik
+
+*/
 var hostname = "https://www.vindexo.net";
-/* use vindexo.net ssl url */
 
 if (!window.jQuery) {
     /*! jQuery v3.1.1 | (c) jQuery Foundation | jquery.org/license */
