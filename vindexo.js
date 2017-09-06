@@ -1,5 +1,5 @@
 var hostname = "https://www.vindexo.net";
-/* deneme */
+/* use vindexo.net ssl url */
 
 if (!window.jQuery) {
     /*! jQuery v3.1.1 | (c) jQuery Foundation | jquery.org/license */
