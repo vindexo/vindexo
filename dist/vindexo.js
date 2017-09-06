@@ -1,6 +1,6 @@
 /*
 Name: Vindexo Embed Javascript
-Version: 1.0.4
+Version: 1.0.6
 Author: Serkan Celik
 */
 
