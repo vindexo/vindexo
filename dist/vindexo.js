@@ -1,8 +1,8 @@
 /*
-Name: Vindexo Embed Javascript
-Version: 1.0.7
-Author: Serkan Celik
-*/
+ Name: Vindexo Embed Javascript
+ Version: 1.0.8
+ Author: Serkan Celik
+ */
 
 var hostname = "https://www.vindexo.net";
 
@@ -2607,10 +2607,12 @@ $(document).ready(function () {
     iframes = $("iframe"); // item i al
     //$.intialize = function () {
     iframes.each(function (index, value) {
-        var youtube_regex = /youtube.com\/embed\/?(.*)/g;
         var iframe = $(this);
         iframe_url = $(this).attr("src");
         seek_id = $(this).data('seek-id') ? $(this).data('seek-id') : 0;
+
+        var youtube_regex = iframe_url.indexOf("?") > 0 ? /youtube.com\/embed\/(.*)[\?](.*)/g : /youtube.com\/embed\/?(.*)/g;
+
         values = youtube_regex.exec(iframe_url);
         // URL youtube url ise
         if (values != null && values[1]) {
